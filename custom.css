@@ -1,0 +1,51 @@
+.col-3, .figure-caption {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+img {
+  width: 50%;
+}
+
+.row {
+  margin: 25px;
+}
+
+div a {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.figure-caption {
+  text-align: center;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+table th, table tr {
+  width: 33%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: top;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+/*# sourceMappingURL=custom.css.map */

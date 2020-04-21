@@ -1,0 +1,51 @@
+$imgwidth:50%;
+$fontsize:25px;
+%textstuff{
+	font-size: $fontsize;
+	font-weight: bold;
+}
+img{
+	width:$imgwidth;
+}
+.row{
+	margin:25px;
+}
+
+div{
+	a{
+		text-align: center;
+		padding: 20px;
+		border: 1px solid black;
+	}
+}
+.figure-caption{
+	@extend %textstuff !optional;
+	text-align: center;
+}
+a:hover{
+	background-color: lightblue
+}
+.col-3{
+	@extend %textstuff !optional;
+}
+table{
+	width: 90%;
+	text-align: center;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	th, tr{
+		width: 33%
+	}
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse:collapse;
+
+}
+caption{
+	caption-side: top;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
